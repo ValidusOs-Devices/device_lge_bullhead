@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "bullhead",
+    "target_path": "kernel/lge/bullhead",
+    "branch": "master",
+    "remote": "ThugLife"
+  },
+  {
+   "repository": "DonkeyCoyote/proprietary_vendor_lge",
+   "target_path": "vendor/lge",
+   "branch": "android-6.0",
+   "remote": "github"
+  }
+]
