@@ -40,6 +40,27 @@ BOARD_KERNEL_CMDLINE += lpm_levels.sleep_disabled=1 msm_poweroff.download_mode=0
 
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 
+# Inline kernel building
+TARGET_KERNEL_SOURCE := kernel/lge/bullhead
+TARGET_KERNEL_CONFIG := thug_defconfig
+BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
+
+TARGET_USES_UNCOMPRESSED_KERNEL := true
+TARGER_KERNEL_ARCH := arm64
+TARGET_KERNEL_HEADER_ARCH := arm64
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
+# Kernel Toolchain
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-5.3-kernel/bin
+KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
+
+# Optimizations
+STRICT_ALIASING := false
+CLANG_O3 := true
+ENABLE_GCCONLY := true
+GRAPHITE_OPTS := false
+USE_PIPE := true
+
+
 BOARD_USES_ALSA_AUDIO := true
 AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
 
@@ -136,13 +157,3 @@ TARGET_PER_MGR_ENABLED := true
 EXTENDED_FONT_FOOTPRINT := true
 
 -include vendor/lge/bullhead/BoardConfigVendor.mk
-
-# Inline kernel building
-TARGET_KERNEL_SOURCE := kernel/lge/bullhead
-TARGET_KERNEL_CONFIG := thug_defconfig
-BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
-
-TARGET_USES_UNCOMPRESSED_KERNEL := true
-TARGER_KERNEL_ARCH := arm64
-TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android- 
