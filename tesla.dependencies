@@ -1,14 +1,14 @@
 [
   {
-    "repository": "bullhead",
+    "repository": "akhilnarang/ThugLife_bullhead",
     "target_path": "kernel/lge/bullhead",
     "branch": "master",
-    "remote": "ThugLife"
+    "remote": "github"
   },
   {
-   "repository": "DonkeyCoyote/proprietary_vendor_lge",
+   "repository": "akhilnarang/proprietary_vendor_lge",
    "target_path": "vendor/lge",
-   "branch": "android-6.0",
+   "branch": "cm-13.0",
    "remote": "github"
   }
 ]
