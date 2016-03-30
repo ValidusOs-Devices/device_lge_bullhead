@@ -1,8 +1,8 @@
 [
   {
-    "repository": "akhilnarang/ThugLife_bullhead",
+    "repository": "PureNexusProject/android_kernel_lge_bullhead",
     "target_path": "kernel/lge/bullhead",
-    "branch": "master",
+    "branch": "mm",
     "remote": "github"
   },
   {
