@@ -1,7 +1,6 @@
 [
   {
     "repository": "SlimRoms/kernel_lge_bullhead",
-    "target_path": "kernel/lge/bullhead",
-    "branch": "ng7.1"
+    "target_path": "kernel/lge/bullhead"
   }
 ]
