@@ -390,5 +390,7 @@
     <bool name="config_proximityCheckOnWake">true</bool>
     <integer name="config_proximityCheckTimeout">300</integer>
 
+    <!-- Enable Night display, which requires HWC 2.0. -->
+     <bool name="config_nightDisplayAvailable">true</bool>
 
 </resources>
