@@ -24,14 +24,14 @@ PRODUCT_RELEASE_NAME := bullhead
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-# Inherit some common Slim stuff.
-$(call inherit-product, vendor/slim/config/common_full_phone.mk)
+# Inherit some common Tipsy stuff.
+$(call inherit-product, vendor/tipsy/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
 
 PRODUCT_DEVICE := bullhead
-PRODUCT_NAME := slim_bullhead
+PRODUCT_NAME := tipsy_bullhead
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 5X
 PRODUCT_MANUFACTURER := LGE
