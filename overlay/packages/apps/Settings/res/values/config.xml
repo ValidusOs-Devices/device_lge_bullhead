@@ -22,4 +22,7 @@
     <!-- Enable color temperature setting. -->
     <bool name="config_enableColorTemperature">true</bool>
 
+    <!-- Whether to enable "show operator name in the status bar" setting -->
+    <bool name="config_showOperatorNameInStatusBar">true</bool>
+
 </resources>

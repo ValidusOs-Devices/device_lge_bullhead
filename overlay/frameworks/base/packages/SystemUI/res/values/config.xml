@@ -36,5 +36,9 @@
 
     <!-- Doze: can we assume the pickup sensor includes a proximity check? -->
     <bool name="doze_pickup_performs_proximity_check">true</bool>
+
+   <!-- Whether to show operator name in the status bar -->
+   <bool name="config_showOperatorNameInStatusBar">true</bool>
+
 </resources>
 
