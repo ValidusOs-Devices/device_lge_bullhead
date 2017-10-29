@@ -31,3 +31,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent \
     ro.setupwizard.rotation_locked=true \
     ro.opa.eligible_device=true
+
+# Maintainer info
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	DEVICE_MAINTAINERS="(un-official) sparx"
