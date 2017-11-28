@@ -30,7 +30,7 @@ ENABLE_CPUSETS := true
 
 TARGET_NO_BOOTLOADER := true
 
-WITH_DEXPREOPT := false
+WITH_DEXPREOPT := true
 
 # Inline kernel
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
