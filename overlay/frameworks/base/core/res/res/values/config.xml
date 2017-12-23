@@ -400,8 +400,8 @@
    <!-- Enable system navigation keys. -->
    <bool name="config_supportSystemNavigationKeys">true</bool>
 
-   <!-- Whether notify fingerprint client of successful cancelled authentication -->
-   <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
+   <!-- Whether notify fingerprint client of successful cancelled authentication 
+   <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool> -->
     
    <!-- Default value for proximity check on screen wake
         NOTE ! - Enable for devices that have a fast response
@@ -409,8 +409,8 @@
    <bool name="config_proximityCheckOnWake">true</bool>
    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
    
-   <!-- doze always on -->
-   <bool name="config_enableDozeAlwaysOn">true</bool>
+   <!-- doze always on
+   <bool name="config_enableDozeAlwaysOn">true</bool> -->
 
    <!-- If true, the display will be shifted around in ambient mode. -->
    <bool name="config_enableBurnInProtection">true</bool>
