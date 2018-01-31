@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+
+    <color name="dslv_icon_dark">#ffffffff</color>
+
+    <color name="notification_icon_bg_color">#ff333333</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_media_primary_color">#ffffffff</color>
+    <color name="notification_media_secondary_color">#ffffff</color>
+    <color name="notification_template_material_big_picture_background_color">#ff111111</color>
+    <color name="notification_mtrl_action_textcolor">#ffffffff</color>
+    <color name="notification_mtrl_big_picture_bg">#ff000000</color>
+    <color name="notification_mtrl_action_text_light">#ffffffff</color>
+
+    <color name="timepicker_default_ampm_selected_background_color_holo_dark">#ff555555</color>
+
+    <color name="datepicker_default_header_selector_background_holo_dark">#ff111111</color>
+    <color name="datepicker_default_header_dayofweek_background_color_holo_dark">#ffffffff</color>
+    <color name="datepicker_default_disabled_text_color_holo_dark">#80ffffff</color>
+    <color name="datepicker_default_selected_text_color_holo_dark">#ffffffff</color>
+    <color name="datepicker_default_pressed_text_color_holo_dark">#ffffff</color>
+
+    <color name="global_menu_icon">#30009688</color>
+    <color name="global_menu_icon_enabled">#009688</color>
+
+    <color name="chooser_grid_bg">#000000</color>
+
+    <color name="notification_title_text">#009688</color>
+    <color name="notification_content_text">#009688</color>
+
+</resources>
