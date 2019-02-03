@@ -6,7 +6,7 @@
   },
   {
     "repository": "BigTopKrazies/vendor_lge_bullhead",
-    "target_path": "vendor/lge",
+    "target_path": "vendor/lge/bullhead",
     "branch": "9.0"
   }
 ]
