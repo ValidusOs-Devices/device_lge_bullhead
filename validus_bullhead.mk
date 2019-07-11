@@ -32,3 +32,7 @@ BUILD_FINGERPRINT := google/bullhead/bullhead:8.1.0/OPM7.181105.004/5038062:user
     #ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent \
     #ro.setupwizard.rotation_locked=true \
     #ro.opa.eligible_device=true
+
+# Maintainer info
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	DEVICE_MAINTAINERS="sparx"
