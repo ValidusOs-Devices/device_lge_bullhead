@@ -23,17 +23,17 @@
 TARGET_USES_CHINOOK_SENSORHUB := false
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init.bullhead.rc:root/init.bullhead.rc \
-    $(LOCAL_PATH)/init.bullhead.usb.rc:root/init.bullhead.usb.rc \
-    $(LOCAL_PATH)/fstab.bullhead:root/fstab.bullhead \
-    $(LOCAL_PATH)/ueventd.bullhead.rc:root/ueventd.bullhead.rc \
-    $(LOCAL_PATH)/init.recovery.bullhead.rc:recovery/root/init.recovery.bullhead.rc \
-    $(LOCAL_PATH)/init.bullhead.ramdump.rc:root/init.bullhead.ramdump.rc \
-    $(LOCAL_PATH)/init.bullhead.fp.rc:root/init.bullhead.fp.rc \
-    $(LOCAL_PATH)/init.qcom.devwait.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/init.qcom.devwait.sh \
-    $(LOCAL_PATH)/init.qcom.devstart.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/init.qcom.devstart.sh \
-    $(LOCAL_PATH)/fstab.bullhead:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.bullhead \
-    $(LOCAL_PATH)/fstab.bullhead:$(TARGET_COPY_OUT_RAMDISK)/fstab.bullhead
+    device/lge/bullhead/init.bullhead.rc:root/init.bullhead.rc \
+    device/lge/bullhead/init.bullhead.usb.rc:root/init.bullhead.usb.rc \
+    device/lge/bullhead/fstab.bullhead:root/fstab.bullhead \
+    device/lge/bullhead/ueventd.bullhead.rc:root/ueventd.bullhead.rc \
+    device/lge/bullhead/init.recovery.bullhead.rc:recovery/root/init.recovery.bullhead.rc \
+    device/lge/bullhead/init.bullhead.ramdump.rc:root/init.bullhead.ramdump.rc \
+    device/lge/bullhead/init.bullhead.fp.rc:root/init.bullhead.fp.rc \
+    device/lge/bullhead/init.qcom.devwait.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/init.qcom.devwait.sh \
+    device/lge/bullhead/init.qcom.devstart.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/init.qcom.devstart.sh \
+    device/lge/bullhead/fstab.bullhead:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.bullhead \
+    device/lge/bullhead/fstab.bullhead:$(TARGET_COPY_OUT_RAMDISK)/fstab.bullhead
 
 ifeq ($(TARGET_USES_CHINOOK_SENSORHUB),true)
 PRODUCT_COPY_FILES += \
